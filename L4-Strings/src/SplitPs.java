@@ -1,3 +1,5 @@
+import javax.swing.*;
+
 public class SplitPs {
 
     /*
@@ -5,4 +7,39 @@ public class SplitPs {
 
     "Hippopotamus" -> ppop
      */
+/*
+input
+isolate the first p in the string
+isolate three letters after the p
+output
+ */
+
+    public static void main(String[] args) {
+        String word = JOptionPane.showInputDialog("Enter word ");
+
+
+        JOptionPane.showMessageDialog(null, splitP(word));
+    }
+
+
+
+
+    public static String splitP(String word){
+
+        int pIndex = word.indexOf('p');
+
+        return word.substring(pIndex, pIndex + 4);
+
+
+    }
+
+
+
+
+
+
+
+
 }
+
+
