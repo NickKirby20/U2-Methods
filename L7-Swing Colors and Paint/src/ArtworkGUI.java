@@ -23,6 +23,7 @@ public class ArtworkGUI {
         public MyDrawing(){
             //Set the background color
             setBackground(Color.white);
+
         }
 
         public void paintComponent(Graphics g){
